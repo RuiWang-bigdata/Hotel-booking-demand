@@ -1,0 +1,29 @@
+ Project Proposal
+
+Q: What dataset or datasets do you plan to use? What are the features, rows and data types of each? 
+
+A: I am going to use a dataset called “Hotel booking demand datasets”. It is a csv. text file database and python was employed to perform. It contains 32 columns with ‘average daily rate’, ‘arrival time’, ‘booking status’, ‘customers type’ etc. Data type includes numeric, integer, categorical, Data. All hotel bookings arrive between the 1st of July of 2015 and the 31st of August 2017, including bookings that effectively arrived and bookings that were canceled. 
+
+Q: What research or business questions do you want to answer?
+
+A: After finishing this project. I should be able to 
+Compare the average price between a city hotel and a resort hotel which is cheaper in general. 
+Compare the average hotel price per night between book with special request(s) and without special request
+Compare the average hotel price per night between book directly and book with travel agents
+Q: What are your hypotheses going in?
+
+Resort hotel prices per night are more expensive than City hotels.
+Book hotels with special request(s) should be cost more than without special request.
+Booking a hotel with travel agents should be cheaper than booking a hotel directly.
+
+Q:How will you use your data to test your hypotheses?
+
+First I need to clean my datasets to make sure there is no null data before I use it. Then due to there are different variables for all the booking recordings, I will make sure every test I run under the same condition.(same room type, stay on weekend or week night, customer is not repeat guest, etc).  
+
+Also I need to make sure every test I run has enough observation(more than 30 at least, around 1000 is ideal condition).
+
+Q: Who will find your findings valuable, and how will they use them?
+
+Hospitality Management and people who have travel plans in the future will both find my research is valuable. 
+Hospitality Management could use it for developing business and improve revenue. And people can use it as a travel reference for how to book a hotel with a better deal.
+
